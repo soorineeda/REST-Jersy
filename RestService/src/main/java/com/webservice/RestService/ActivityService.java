@@ -19,6 +19,7 @@ import com.webservice.repository.ActivityRepositoryStub;
 public class ActivityService {
 	private ActivityRepository activityRepo = new ActivityRepositoryStub();
 
+	// http://localhost:8080/RestService/webapi/activities/
 	@GET
 	@Produces(MediaType.APPLICATION_XML)
 	public List<Activity> getAllActivities() {

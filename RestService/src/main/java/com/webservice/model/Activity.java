@@ -24,12 +24,12 @@ public class Activity implements Serializable {
 	}
 
 	@XmlElement
-	public void setActivityName(String activityName) {
+	public void setActivityName(final String activityName) {
 		this.activityName = activityName;
 	}
 
 	@XmlElement
-	public void setDuration(int duration) {
+	public void setDuration(final int duration) {
 		this.duration = duration;
 	}
 

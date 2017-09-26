@@ -4,6 +4,10 @@ import java.util.List;
 
 import com.webservice.model.Activity;
 
+/**
+ * @author nuggu
+ *
+ */
 public interface ActivityRepository {
 	List<Activity> retrievAllActivities();
 }
