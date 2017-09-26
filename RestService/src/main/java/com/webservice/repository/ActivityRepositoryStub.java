@@ -12,10 +12,8 @@ import com.webservice.model.Activity;
 public class ActivityRepositoryStub implements ActivityRepository {
 
 	public List<Activity> retrievAllActivities() {
-		List<Activity> activities = new ArrayList<>();
-		Activity activity = new Activity();
-		activity.setActivityName("Running");
-		activity.setDuration(15);
+		final List<Activity> activities = new ArrayList<>();
+		final Activity activity = new Activity("Running",15);
 		activities.add(activity);
 		return activities;
 	}

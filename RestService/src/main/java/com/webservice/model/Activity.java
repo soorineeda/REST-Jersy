@@ -10,7 +10,7 @@ import javax.xml.bind.annotation.XmlRootElement;
  *
  */
 @SuppressWarnings("serial")
-@XmlRootElement(name = "activity")
+@XmlRootElement
 public class Activity implements Serializable {
 	private String activityName;
 	private int duration;
